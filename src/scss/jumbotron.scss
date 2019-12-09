@@ -1,0 +1,31 @@
+/*jumbotron*/
+
+.jumbotron {
+  background-image: url(../img/queen-live-on-stage.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.jumbotron img{
+  margin-left: 150px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.parallax-one {
+  /* The image used */
+  background-image: url(../img/queen-live-on-stage.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
