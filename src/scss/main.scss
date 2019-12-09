@@ -25,25 +25,12 @@
 @import "card";
 
 h1 {
-  font-family: 'Rock Salt';
+  font-family: 'Lora', serif;
 }
 
-.parallax-two {
-  /* The image used */
-  background-image: url("../img/queen-band-wallpaper-thin.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .col-sm-6 {
   border-style: solid;
   border-color: red;
-  border-width: 20px;
+  border-width: 3px;
 }
