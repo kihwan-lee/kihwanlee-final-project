@@ -5,17 +5,18 @@
 
 {% block content %}
 <article class="container">
-  <div class="row">
-    <div class="col-sm-3 left-rail">
-      <img src="img/members/{{members.imagebw}}" class="img-fluid" alt="Responsive image">
-    </div>
-    <div class="col-sm-6">
+  <div class="col-sm-8">
     <h1>{{members.name}}</h1>
       <h4>Intruments:{{members.instruments}}</h4>
       <h4>Years in band:{{members.tenure}}</h4>
       <h4>Birthplace:{{members.birthplace}}</h4>
       <h4>Born:{{members.birthdate}}</h4>
       <p>{{members.text | safe}}</p>
+    </div>
+
+  <div class="row">
+    <div class="col-sm-4 top-rail">
+      <img src="img/members/{{members.imagebw}}" class="img-fluid" alt="Responsive image">
     </div>
   </div>
 </article>
